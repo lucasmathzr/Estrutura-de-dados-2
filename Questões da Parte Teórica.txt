@@ -39,10 +39,7 @@ R: Uma lista duplamente encadeada é parecida com a simplesmente encadeada, mas 
 
 NULL ← [Anterior | Dado | Próximo] ↔ [Anterior | Dado | Próximo] ↔ [Anterior | Dado | NULL]
 
-9. O que é uma lista duplamente encadeada? Apresente um diagrama para ilustrar
-essa estrutura de dados.
-
-R: Assim como explicado acima, uma lista duplamente encadeada permite a navegação tanto para frente quanto para trás, pois cada nó conhece seu sucessor e seu antecessor. Essa estrutura é muito útil quando é necessário inserir ou remover elementos em diferentes posições com facilidade.
+9. Pergunta Repetida.
 
 10. Explique o funcionamento do algoritmo de busca binária e sequencial
 
@@ -56,6 +53,7 @@ R: Insertion Sort insere cada elemento no lugar correto de uma lista parcialment
    Merge Sort divide a lista em partes menores, ordena cada uma e depois as combina em ordem.
    Count Sort conta quantas vezes cada valor aparece e usa essas contagens para montar a lista ordenada.
    Quick Sort escolhe um elemento como pivô, separa os menores à esquerda e os maiores à direita, e aplica o mesmo processo a cada parte até a lista ficar totalmente ordenada.
+
 
 
 
