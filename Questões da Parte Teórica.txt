@@ -1,0 +1,62 @@
+Questões da Parte Teórica 
+
+1. O que significa alocação estática de memória para um conjunto de elementos?
+
+R: A alocação estática de memória acontece quando o espaço necessário para armazenar os dados é definido antes da execução do programa. Isso significa que o tamanho da memória é fixado no momento da compilação e não pode ser alterado enquanto o programa estiver rodando.
+
+2. Qual a diferença entre alocação estática e alocação dinâmica?
+
+R: A diferença entre as duas está no momento em que a memória é reservada e na flexibilidade do uso. Na alocação estática, o tamanho é fixo e definido antes da execução, enquanto na alocação dinâmica, a memória é reservada durante a execução do programa, podendo ser aumentada ou liberada conforme a necessidade.
+
+3. O que é um ponteiro?
+
+R: Um ponteiro é uma variável que armazena o endereço de memória de outra variável. Em vez de guardar um valor diretamente, ele aponta para o local onde esse valor está armazenado, permitindo acesso e manipulação indireta dos dados.
+
+4. O que é uma estrutura de dados homogêneos?
+
+R: Uma estrutura de dados homogênea é aquela em que todos os elementos são do mesmo tipo. Por exemplo, um vetor de números inteiros ou um vetor de caracteres, onde todos os dados seguem o mesmo formato.
+
+5. O que é uma estrutura de dados heterogêneos?
+
+R: Uma estrutura de dados heterogênea é aquela que pode conter elementos de tipos diferentes dentro da mesma estrutura. Um exemplo é uma estrutura (struct) que guarda o nome de uma pessoa em texto, a idade em número inteiro e a altura em número decimal.
+
+6. Qual a vantagem das listas sobre os vetores em termos de consumo de memória?
+Exemplifique.
+
+R: As listas têm a vantagem de utilizar apenas a quantidade de memória necessária para armazenar os elementos existentes, podendo crescer ou diminuir conforme o uso. Já os vetores têm tamanho fixo, ocupando um espaço definido mesmo que nem todas as posições sejam usadas. Por exemplo, se um vetor tem 100 posições, ele ocupará memória para todas elas, mesmo que apenas 10 estejam preenchidas, enquanto uma lista ocupará espaço apenas para esses 10 elementos.
+
+7. O que é uma lista simplesmente encadeada? Apresente um diagrama para ilustrar
+essa estrutura de dados.
+
+R: Uma lista simplesmente encadeada é uma estrutura em que cada elemento (ou nó) contém um valor e uma referência (ou ponteiro) para o próximo elemento da lista. O último nó aponta para um valor nulo, indicando o fim da lista.
+
+[Dado | Próximo] → [Dado | Próximo] → [Dado | NULL]
+
+8. O que é uma lista duplamente encadeada? Apresente um diagrama para ilustrar
+essa estrutura de dados.
+
+R: Uma lista duplamente encadeada é parecida com a simplesmente encadeada, mas cada nó possui dois ponteiros: um que aponta para o próximo elemento e outro que aponta para o anterior. Isso permite percorrer a lista em ambos os sentidos.
+
+NULL ← [Anterior | Dado | Próximo] ↔ [Anterior | Dado | Próximo] ↔ [Anterior | Dado | NULL]
+
+9. O que é uma lista duplamente encadeada? Apresente um diagrama para ilustrar
+essa estrutura de dados.
+
+R: Assim como explicado acima, uma lista duplamente encadeada permite a navegação tanto para frente quanto para trás, pois cada nó conhece seu sucessor e seu antecessor. Essa estrutura é muito útil quando é necessário inserir ou remover elementos em diferentes posições com facilidade.
+
+10. Explique o funcionamento do algoritmo de busca binária e sequencial
+
+R: Na busca sequencial, os elementos são verificados um a um, do início ao fim, até encontrar o valor desejado ou chegar ao final da lista. Já a busca binária é usada apenas em listas ordenadas: o algoritmo compara o elemento procurado com o do meio da lista e decide se deve procurar na metade inferior ou superior, repetindo o processo até encontrar o valor ou determinar que ele não existe.
+
+11. Explique o funcionamento dos seguintes algoritmos de ordenação: Insertion sort,
+Selection sort, Merge sort, Count sort, Quicksort.
+
+R: Insertion Sort insere cada elemento no lugar correto de uma lista parcialmente ordenada, um por um.
+   Selection Sort procura o menor elemento e o coloca na primeira posição, repetindo o processo para os demais.
+   Merge Sort divide a lista em partes menores, ordena cada uma e depois as combina em ordem.
+   Count Sort conta quantas vezes cada valor aparece e usa essas contagens para montar a lista ordenada.
+   Quick Sort escolhe um elemento como pivô, separa os menores à esquerda e os maiores à direita, e aplica o mesmo processo a cada parte até a lista ficar totalmente ordenada.
+
+
+
+
